@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/noomnim/Developments/exam-thanachart-backend/dotnet-9.csproj": {}
+  },
+  "projects": {
+    "/home/noomnim/Developments/exam-thanachart-backend/dotnet-9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/noomnim/Developments/exam-thanachart-backend/dotnet-9.csproj",
+        "projectName": "dotnet-9",
+        "projectPath": "/home/noomnim/Developments/exam-thanachart-backend/dotnet-9.csproj",
+        "packagesPath": "/home/noomnim/.nuget/packages/",
+        "outputPath": "/home/noomnim/Developments/exam-thanachart-backend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/noomnim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.7, 9.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
